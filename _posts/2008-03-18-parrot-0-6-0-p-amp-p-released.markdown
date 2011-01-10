@@ -1,0 +1,14 @@
+---
+layout: default
+title: Parrot 0.6.0 "P&amp;P" released
+---
+
+<p>On behalf of the Parrot team, I'm proud to announce Parrot 0.6.0
+&quot;P&amp;P.&quot; <a href="http://parrotcode.org/" rel="nofollow">Parrot</a>
+is a virtual machine aimed at running dynamic languages. This release is a milestone release featuring the revamping of Parrot Magic Cookies.</p><p>Parrot 0.6.0 can be obtained via <a href="http://search.cpan.org/dist/parrot" rel="nofollow">CPAN</a>
+(soon), or <a href="http://parrotcode.org/source.html" rel="nofollow">follow the download instructions</a>.
+For those who would like to develop on Parrot, or help develop Parrot itself,
+we recommend using <a href="http://subversion.tigris.org/" rel="nofollow">Subversion</a>
+or <a href="http://svk.bestpractical.com/" rel="nofollow">SVK</a>
+on <a href="https://svn.perl.org/parrot/trunk/" rel="nofollow">our source code repository</a>
+to get the latest and best Parrot code.</p><p>Parrot 0.6.0 News:</p><blockquote><div><p> <tt>- Specification<br>&nbsp; + launched pdd18_security.pod<br>&nbsp; + updated pdd17_pmc.pod<br>&nbsp; + launching draft of pdd28_character_sets.pod<br>- Documentation<br>&nbsp; + cleanup of IMCC documentation<br>- Configuration<br>&nbsp; + add step auto::gettext<br>&nbsp; + add step auto::crypto<br>- Compilers<br>&nbsp; + PCT:<br>&nbsp; &nbsp; . Fix '-e' option<br>&nbsp; &nbsp; . Phase out P6Regex in favor of Perl6Regex<br>&nbsp; + IMCC:<br>&nbsp; &nbsp; '.local Array my_arr' is illegal now<br>- Languages<br>&nbsp; + C99: reimplementation with PCT<br>&nbsp; + lolcode:<br>&nbsp; &nbsp; . various updates<br>&nbsp; &nbsp; . add support for functions with params<br>&nbsp; &nbsp; . add math functions<br>&nbsp; + Rakudo:<br>&nbsp; &nbsp; . support for 'say'<br>&nbsp; &nbsp; . first cut at smart matching<br>&nbsp; &nbsp; . indirect method calls<br>&nbsp; &nbsp; . support for Pairs<br>&nbsp; &nbsp; . added methods 'grep' and 'first'<br>&nbsp; &nbsp; . implement auto{increment,decrement}<br>&nbsp; &nbsp; . initial implementation of 'perl6doc'<br>&nbsp; + Lua:<br>&nbsp; &nbsp; . various updates<br>&nbsp; &nbsp; . add base64 library<br>&nbsp; + Cardinal: basic support for functions with parameters<br>&nbsp; + Pheme: various updates<br>&nbsp; + Ecmascript: various updates<br>&nbsp; + Tcl: now targeting tcl 8.5.1, no more expected failures in test suite.<br>&nbsp; &nbsp; (No, this doesn't mean everything's implemented. =-)<br>&nbsp; + Eclectus: various updates<br>&nbsp; + WMLScript: various updates<br>- Implementation<br>&nbsp; + PDD17 (PMCs)<br>&nbsp; + Add library YAML::Dumper<br>&nbsp; + Add the MD2, MD4, MD5, RIPEMD160, SHA &amp; SHA1 PMC, as a wrapper<br>&nbsp; &nbsp; &nbsp;around libcrypto<br>- Miscellaneous<br>&nbsp; + various bugfixes, code cleanups and coding standard fixes<br>&nbsp; + consting<br>&nbsp; + remove external Perl 5 modules from the Parrot distribution</tt></p>

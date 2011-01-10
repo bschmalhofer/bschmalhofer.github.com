@@ -1,0 +1,6 @@
+---
+layout: default
+title: MIME::Base64
+---
+
+<p>After starting on Plumhead, aka <strong>P</strong>lum<strong>H</strong>eaded <strong>P</strong>arakeet, I stumbled on base64 encoded strings embedded in the XML emitted by phc <a href="http://phpcompiler.org/" rel="nofollow">http://phpcompiler.org/</a>.</p><p>The plan is to create Parrot Intermediate Representation from XML. So I became sidetracked into making a MIME::Base64 module for PIR. As usual it took longer than expected, even though I found a nice german tutorial, <a href="http://aktuell.de.selfhtml.org/artikel/javascript/utf8b64/base64.htm" rel="nofollow">http://aktuell.de.selfhtml.org/artikel/javascript/utf8b64/base64.htm</a><br>So an incomplete implementation is now at <a href="http://svn.perl.org/viewcvs/parrot/trunk/runtime/parrot/library/MIME/Base64.pir" rel="nofollow">http://svn.perl.org/viewcvs/parrot/trunk/runtime/parrot/library/MIME/Base64.pir</a><nobr>.<wbr></nobr> <br>The tests I stole from the Perl5 module MIME::Base64. Thanks to Will Coleda for compilers/json, which helps in setting up the test cases.</p>
