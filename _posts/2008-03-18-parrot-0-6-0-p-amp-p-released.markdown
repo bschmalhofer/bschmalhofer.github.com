@@ -11,4 +11,60 @@ For those who would like to develop on Parrot, or help develop Parrot itself,
 we recommend using <a href="http://subversion.tigris.org/" rel="nofollow">Subversion</a>
 or <a href="http://svk.bestpractical.com/" rel="nofollow">SVK</a>
 on <a href="https://svn.perl.org/parrot/trunk/" rel="nofollow">our source code repository</a>
-to get the latest and best Parrot code.</p><p>Parrot 0.6.0 News:</p><blockquote><div><p> <tt>- Specification<br>&nbsp; + launched pdd18_security.pod<br>&nbsp; + updated pdd17_pmc.pod<br>&nbsp; + launching draft of pdd28_character_sets.pod<br>- Documentation<br>&nbsp; + cleanup of IMCC documentation<br>- Configuration<br>&nbsp; + add step auto::gettext<br>&nbsp; + add step auto::crypto<br>- Compilers<br>&nbsp; + PCT:<br>&nbsp; &nbsp; . Fix '-e' option<br>&nbsp; &nbsp; . Phase out P6Regex in favor of Perl6Regex<br>&nbsp; + IMCC:<br>&nbsp; &nbsp; '.local Array my_arr' is illegal now<br>- Languages<br>&nbsp; + C99: reimplementation with PCT<br>&nbsp; + lolcode:<br>&nbsp; &nbsp; . various updates<br>&nbsp; &nbsp; . add support for functions with params<br>&nbsp; &nbsp; . add math functions<br>&nbsp; + Rakudo:<br>&nbsp; &nbsp; . support for 'say'<br>&nbsp; &nbsp; . first cut at smart matching<br>&nbsp; &nbsp; . indirect method calls<br>&nbsp; &nbsp; . support for Pairs<br>&nbsp; &nbsp; . added methods 'grep' and 'first'<br>&nbsp; &nbsp; . implement auto{increment,decrement}<br>&nbsp; &nbsp; . initial implementation of 'perl6doc'<br>&nbsp; + Lua:<br>&nbsp; &nbsp; . various updates<br>&nbsp; &nbsp; . add base64 library<br>&nbsp; + Cardinal: basic support for functions with parameters<br>&nbsp; + Pheme: various updates<br>&nbsp; + Ecmascript: various updates<br>&nbsp; + Tcl: now targeting tcl 8.5.1, no more expected failures in test suite.<br>&nbsp; &nbsp; (No, this doesn't mean everything's implemented. =-)<br>&nbsp; + Eclectus: various updates<br>&nbsp; + WMLScript: various updates<br>- Implementation<br>&nbsp; + PDD17 (PMCs)<br>&nbsp; + Add library YAML::Dumper<br>&nbsp; + Add the MD2, MD4, MD5, RIPEMD160, SHA &amp; SHA1 PMC, as a wrapper<br>&nbsp; &nbsp; &nbsp;around libcrypto<br>- Miscellaneous<br>&nbsp; + various bugfixes, code cleanups and coding standard fixes<br>&nbsp; + consting<br>&nbsp; + remove external Perl 5 modules from the Parrot distribution</tt></p>
+to get the latest and best Parrot code.</p><p>Parrot 0.6.0 News:</p>
+
+    - Specification
+      + launched pdd18_security.pod
+      + updated pdd17_pmc.pod
+      + launching draft of pdd28_character_sets.pod
+    - Documentation
+      + cleanup of IMCC documentation
+    - Configuration
+      + add step auto::gettext
+      + add step auto::crypto
+    - Compilers
+      + PCT:
+        . Fix '-e' option
+        . Phase out P6Regex in favor of Perl6Regex
+      + IMCC:
+        '.local Array my_arr' is illegal now
+    - Languages
+      + C99: reimplementation with PCT
+      + lolcode:
+        . various updates
+        . add support for functions with params
+        . add math functions
+      + Rakudo:
+        . support for 'say'
+        . first cut at smart matching
+        . indirect method calls
+        . support for Pairs
+        . added methods 'grep' and 'first'
+        . implement auto{increment,decrement}
+        . initial implementation of 'perl6doc'
+      + Lua:
+        . various updates
+        . add base64 library
+      + Cardinal: basic support for functions with parameters
+      + Pheme: various updates
+      + Ecmascript: various updates
+      + Tcl: now targeting tcl 8.5.1, no more expected failures in test suite.
+        (No, this doesn't mean everything's implemented. =-)
+      + Eclectus: various updates
+      + WMLScript: various updates
+    - Implementation
+      + PDD17 (PMCs)
+      + Add library YAML::Dumper
+      + Add the MD2, MD4, MD5, RIPEMD160, SHA & SHA1 PMC, as a wrapper
+         around libcrypto
+    - Miscellaneous
+      + various bugfixes, code cleanups and coding standard fixes
+      + consting
+      + remove external Perl 5 modules from the Parrot distribution
+
+<p>
+Thanks to all our contributors for making this possible, and our sponsors for supporting this project.
+</p>
+<p>
+Enjoy!
+</p>
