@@ -3,7 +3,7 @@ layout: default
 title: Parrot 0.6.0 "P&amp;P" released
 ---
 
-<p>On behalf of the Parrot team, I'm proud to announce Parrot 0.6.0
+On behalf of the Parrot team, I'm proud to announce Parrot 0.6.0
 &quot;P&amp;P.&quot; <a href="http://parrotcode.org/" rel="nofollow">Parrot</a>
 is a virtual machine aimed at running dynamic languages. This release is a milestone release featuring the revamping of Parrot Magic Cookies.</p><p>Parrot 0.6.0 can be obtained via <a href="http://search.cpan.org/dist/parrot" rel="nofollow">CPAN</a>
 (soon), or <a href="http://parrotcode.org/source.html" rel="nofollow">follow the download instructions</a>.
@@ -62,9 +62,6 @@ to get the latest and best Parrot code.</p><p>Parrot 0.6.0 News:</p>
       + consting
       + remove external Perl 5 modules from the Parrot distribution
 
-<p>
 Thanks to all our contributors for making this possible, and our sponsors for supporting this project.
-</p>
-<p>
+
 Enjoy!
-</p>
