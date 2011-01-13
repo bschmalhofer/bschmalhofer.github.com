@@ -3,7 +3,6 @@ layout: default
 title: Cool things at $work
 ---
 
-
 My main project at $work is a Mason-based webapplication for keeping track of interesting biological sequences. As a new round of develoment is just starting, I finally took some time to do some refactoring and to beef up my test suite.
 
 Almost all the application logic, interface to the database and connection to the world is wrapped in a set of Perl5 modules. Running the existing test suite with Devel::Cover was dead easy. It immediately showed me missing tests. Even better, it pointed me to some obsolete code. This is very good, as deleted code is guaranteed to be bugfree code.

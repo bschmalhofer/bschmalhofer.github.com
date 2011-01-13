@@ -5,7 +5,11 @@ title: First steps with ANTLR and Python
 
 I'm still trying to find the ultimate tool for implementing languages on Parrot. Never having to take a compiler construction class, and not really needing it at work, I'm not familiar with any of common parsing tools.
 
-For now I'm getting down with ANTLR, trying to bring 'bc' to Parrot. 'bc' is actually a neat little language, I like it much better than 'm4'. The main purpose of 'bc' is of course the evaluation of arithmetic expressions. But there are also variables and subroutines. So 'bc' might be nice sandbox for playing with the PAST interface of Parrot.
+For now I'm getting down with ANTLR, trying to bring 'bc' to Parrot.
+'bc' is actually a neat little language, I like it much better than 'm4'.
+The main purpose of 'bc' is of course the evaluation of arithmetic expressions.
+But there are also variables and subroutines. So 'bc' might be nice sandbox
+for playing with the PAST interface of Parrot.
 
 ANTLR looks very good to me. Like with lex/yacc a syntax definition is transformed into code for lexers and parsers. The pros are
   * Mature, with lots of documentation and examples

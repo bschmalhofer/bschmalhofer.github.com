@@ -42,6 +42,7 @@ Everything is fine when she places the telephone receiver further away from the 
 *Two months ago*: At work I wrote a little migration script for a relational database.
 I used DB::Introspector for checking wether a MySQL database table had the needed indexes.
 Found a little problem with DB::Introspector, fixed it, and didn't bother to send in a patch.
+
 *Friday*: Needed the mentioned migration script for a software installation on a test machine.
 Installed DB::Introspector and ran into the old problem. I remembered my fix from two months ago and applied it.
 This time I filed the patch in http://rt.cpan.org.

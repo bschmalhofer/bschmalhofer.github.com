@@ -9,6 +9,6 @@ As HQ9+ is not really a hard language, it all went fairly smooth. 'mk_language_s
 
 For looking up snippets of PAST I used the old trick: write a snippet of Perl 6 and look at the PAST that Rakudo generates.
 
-The last problem was whitespace handling. For that I only needed a simple change in the grammar. Replace all 'rule's by 'token's and sprinkle some '\s*'s.
+The last problem was whitespace handling. For that I only needed a simple change in the grammar. Replace all 'rule's by 'token's and sprinkle some '\\s\*'s.
 
 The next thing on my agenda is for Plumhead and Eclectus. I want to switch from 'generate PIR that sets up PAST' to 'generate NQP that sets up PAST'.
