@@ -4,15 +4,19 @@ title: Parrot 0.6.4
 ---
 
 On behalf of the Parrot team, I'm proud to announce Parrot 0.6.4
-&quot;St. Vincent Amazon.&quot; <a href="http://parrotcode.org/" rel="nofollow">Parrot</a>
-is a virtual machine aimed at running dynamic languages.</p><p>Parrot 0.6.4 is available via <a href="http://search.cpan.org/dist/parrot" rel="nofollow">CPAN</a>
-(soon), or <a href="http://parrotcode.org/source.html" rel="nofollow">follow the download
-instructions</a>.  For those who would like to develop on Parrot, or help
-develop Parrot itself, we recommend using <a href="http://subversion.tigris.org/" rel="nofollow">Subversion</a>  on
-<a href="https://svn.perl.org/parrot/trunk/" rel="nofollow">our source code repository</a> to get the latest
+&quot;St. Vincent Amazon.&quot;.
+[Parrot](http://parrotcode.org/) is a virtual machine
+aimed at running dynamic languages.
+
+Parrot 0.6.4 is available via [CPAN](http://search.cpan.org/dist/parrot)
+(soon), or [follow the download instructions](http://parrotcode.org/source.html).
+For those who would like to develop on Parrot, or help
+develop Parrot itself, we recommend using [Subersion](http://subversion.tigris.org/) on
+[our source code repository](https://svn.perl.org/parrot/trunk/) to get the latest
 and best Parrot code.
 
 Parrot 0.6.4 News:
+
     - Documentation
       + removed a lot of old information from the FAQ
       + improved function level documentation
