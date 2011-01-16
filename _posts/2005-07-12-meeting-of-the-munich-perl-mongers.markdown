@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Meeting of the Munich Perl Mongers
 ---
 

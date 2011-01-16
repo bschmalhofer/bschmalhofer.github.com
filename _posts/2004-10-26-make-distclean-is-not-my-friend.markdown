@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "'make distclean' is not my friend"
 ---
 

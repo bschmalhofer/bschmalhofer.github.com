@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: May 2006 Munich Perl Monger meeting
 ---
 

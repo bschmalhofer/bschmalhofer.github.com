@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Back to YAML/Parser/Syck.imc
 ---
 

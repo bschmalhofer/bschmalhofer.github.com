@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Pipp has left the nest and moved to github
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Parrot m4 has left the nest
 ---
 

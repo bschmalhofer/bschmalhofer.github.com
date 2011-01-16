@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Basic OO-features in Pipp
 ---
 

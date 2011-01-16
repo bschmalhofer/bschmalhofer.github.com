@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Parrot Abstract Syntax Tree in Scheme-XML
 ---
 

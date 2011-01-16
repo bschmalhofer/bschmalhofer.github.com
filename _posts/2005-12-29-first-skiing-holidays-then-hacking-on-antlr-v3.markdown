@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: First skiing holidays, then hacking on ANTLR v3
 ---
 

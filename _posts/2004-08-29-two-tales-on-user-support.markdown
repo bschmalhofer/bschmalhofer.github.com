@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: two tales on user support
 ---
 

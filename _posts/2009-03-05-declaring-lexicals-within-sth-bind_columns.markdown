@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Declaring lexicals within $sth-bind_columns()
 ---
 

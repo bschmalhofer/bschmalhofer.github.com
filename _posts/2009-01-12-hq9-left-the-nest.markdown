@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: HQ9+ left the nest
 ---
 

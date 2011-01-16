@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Seen on reddit: What large websites are running on"
 ---
 

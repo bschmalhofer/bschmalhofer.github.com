@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Parrot YAML ain't machine language"
 ---
 
