@@ -3,8 +3,9 @@ layout: base
 title: Bernhard's Blog Goldbachperlen
 ---
 
+<h2>All posts</h2>
 {% for post in site.posts limit:100 %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {{ post.content }}
 <em>Posted on {{ post.date | date_to_long_string }}.</em>
 {% endfor %}
