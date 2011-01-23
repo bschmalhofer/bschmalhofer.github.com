@@ -8,23 +8,17 @@
         <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
     </head>
     <body>
+        {% include header.html %}
         <div id="Links">
-            <h1>Links</h1>
-            <ul>
-                <li><a href="index.html">Recent posts</a></li>
-                <li><a href="archive.html">All posts</a></li>
-                <!--li>Github</li-->
-                <!--li>LinkedIn</li-->
-                <!--li>XING</li-->
-            </ul>
-            TODO: add links
+            <h2>Links</h2>
+            {% include nav.html %}
         </div>
         <div id="container">
             {{ content }}
         </div>
         <div id="about">
-            <h1>About</h1>
-            Hi, I'm Bernhard Schmalhofer from Munich in Germany.
+            <h2>About</h2>
+            {% include about.html %}
         </div>
     </body>
 </html>
